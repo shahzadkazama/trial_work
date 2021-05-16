@@ -1,25 +1,27 @@
 # trial_project
 
 # Requirement
+
  - docker
  - docker-compose
 
-
-1- clone the project
+# 1- clone the project
 
    git clone https://github.com/shahzadkazama/trial_work.git
    
-2- execute the project
+# 2- execute the project
 
   cd trial_work
+
   docker-compose up -d --build
 
-3- verify the services
-  docker-compse ps
+# 3- verify the services
 
-4- how to add a car by post request only, you can use postman or any api tool
+   docker-compse ps
 
-   http://your-ip-address/trail/add_car/
+# 4- how to add a car by post request only, you can use postman or any api tool
+
+  # http://your-ip-address/trail/add_car/
 
    car_type=suvs
    car_model=2017
