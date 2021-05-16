@@ -19,7 +19,7 @@
 
    docker-compse ps
 
-## 4- how to add a car by post request only, you can use postman or any api tool
+## 4- how to add a car with body (form-data) by post request only, you can use postman or any api tool
 
    ### http://your-ip-address/trail/add_car/
 
@@ -34,3 +34,14 @@
    ### http://your-ip-address/trail/find_car/
    
    ### car_id = 1
+
+
+## 6- how to update a car with body (form-data) by post request only.
+
+  ### http://your-ip-address/trail/update_car/
+  ### car_id=2
+  ### car_type=suvs
+  ### car_model=2017
+  ### car_make=kia
+  ### car_price=550000
+  ### car_year=2021
